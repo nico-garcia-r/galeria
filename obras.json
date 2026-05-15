@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "titulo": "Danza",
+    "autor": "Cristina Daniele",
+    "anio": 2018,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Danza.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Vigor",
+    "autor": "Cristina Daniele",
+    "anio": 2019,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Vigor.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Instinto",
+    "autor": "Cristina Daniele",
+    "anio": 2019,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Instinto.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Guardián y Guía",
+    "autor": "Cristina Daniele",
+    "anio": 2022,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Guardián y Guia.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Trinito",
+    "autor": "Cristina Daniele",
+    "anio": 2022,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Trinito.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "Mision",
+    "autor": "Cristina Daniele",
+    "anio": 2021,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Mision.jpg"
+  },
+  {
+    "id": 7,
+    "titulo": "Vigia",
+    "autor": "Cristina Daniele",
+    "anio": 2018,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Vigia.jpg"
+  },
+  {
+    "id": 8,
+    "titulo": "Desapego",
+    "autor": "Cristina Daniele",
+    "anio": 2019,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Desapego.jpg"
+  },
+  {
+    "id": 9,
+    "titulo": "Envergadura",
+    "autor": "Cristina Daniele",
+    "anio": 2018,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Envergadura.jpg"
+  },
+  {
+    "id": 10,
+    "titulo": "Mirada Oculta",
+    "autor": "Cristina Daniele",
+    "anio": 2021,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Mirada Oculta.jpg"
+  },
+  {
+    "id": 11,
+    "titulo": "Mira alto, sueña alto",
+    "autor": "Cristina Daniele",
+    "anio": 2019,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Mira alto, sueña alto.jpg"
+  },
+  {
+    "id": 12,
+    "titulo": "Transformación",
+    "autor": "Cristina Daniele",
+    "anio": 2020,
+    "descripcion": "Óleo sobre lienzo",
+    "imagen": "Transformación.jpg"
+  }
+]

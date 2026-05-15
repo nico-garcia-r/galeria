@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Galería · Cristina Daniele</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="loading">
+    <div class="loading-inner">
+      <h1>Cristina Daniele</h1>
+      <p>Galería de Arte</p>
+      <div class="bar"><div id="bar-fill"></div></div>
+      <span id="bar-pct">0%</span>
+    </div>
+  </div>
+
+  <canvas id="canvas"></canvas>
+
+  <div id="info-panel">
+    <button id="btn-close">✕</button>
+    <h2 id="p-titulo"></h2>
+    <span id="p-autor"></span>
+    <span id="p-anio"></span>
+    <p id="p-desc"></p>
+  </div>
+
+  <div id="hint" style="color:white">
+    <span class="desktop-only">↑ ↓ avanzar &nbsp;·&nbsp; ← → mirar &nbsp;·&nbsp; clic en obra para más info</span>
+    <span class="mobile-only">Tocá una obra para más info</span>
+  </div>
+
+  <div id="mobile-controls">
+    <div id="mc-look">
+      <button id="mc-left">◀</button>
+      <button id="mc-right">▶</button>
+    </div>
+    <div id="mc-move">
+      <button id="mc-fwd">▲</button>
+      <button id="mc-back">▼</button>
+    </div>
+  </div>
+
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.165.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.165.0/examples/jsm/"
+    }
+  }
+  </script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
