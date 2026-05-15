@@ -1,0 +1,13 @@
+services:
+  galeria:
+    build: .
+    ports:
+      - "1957:80"
+    restart: unless-stopped
+
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TOKEN}
+    restart: unless-stopped
+    depends_on:
+      - galeria
